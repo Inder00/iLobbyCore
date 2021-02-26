@@ -1,0 +1,221 @@
+welcome:
+  # Zmienne
+  # {PLAYER}
+  title: "&6SERWER.PL"
+  subtitle: "&7Witaj &e{PLAYER} &7na &6SERWER.PL"
+  # Zmienne
+  # {ONLINE}, {REGISTRED}
+  chat:
+  - " "
+  - "               &7&o Witaj &6&o{PLAYER} &7&ona &6&oSERWER.PL!"
+  - "              &7&oOnline: &6&o{ONLINE}&7&o, zarejestrowanych: &6&o{REGISTRED}"
+  - "                        &7&oZyczymy milej gry!"
+  - " "
+
+connecting:
+  # Zmienne
+  # {SERVER}
+  title: "&6SERWER.PL"
+  subtitle: "&7Trwa laczenie z &6{SERVER}..."
+  chat: "&8{>} &7Trwa laczenie z serwerem &6{SERVER}..."
+
+# Lista serwerow (potrzebna do zmiennej {SERVER:name} do ilosci graczy
+bungeecord-servers:
+- "easyhc"
+- "megadrop"
+
+scoreboard:
+  name: "&6SERWER.PL"
+  # Zmienne:
+  # {USAGERAM}, {SERVER:bungeecord_server_name}
+  list:
+    blank1:
+      id: 12
+      value: " "
+      update: false
+    www:
+      id: 11
+      value: "&8{.} &7Strona: &fserwer.pl"
+      update: false
+    ts:
+      id: 10
+      value: "&8{.} &7TS3: &fts3.serwer.pl"
+      update: false
+    blank2:
+      id: 9
+      value: "  "
+      update: false
+    servers:
+      id: 8
+      value: "    &6&lNASZE SERWERY"
+      update: false
+    blank3:
+      id: 7
+      value: "   "
+      update: false
+    easyhc:
+      id: 6
+      value: "&8{.} &7EasyHC: &f{SERVER:easyhc}&8/&f100"
+      update: true
+    megadrop:
+      id: 5
+      value: "&8{.} &7MegaDrop: &f{SERVER:megadrop}&8/&f100"
+      update: true
+    blank4:
+      id: 4
+      value: "    "
+      update: false
+    statuslobby:
+      id: 3
+      value: "&8{.} &7Status poczekalni:"
+      update: false
+    ram:
+      id: 2
+      value: " &f{USAGERAM} &7MB &8&l/ &f4092 &7MB"
+      update: true
+    blank5:
+      id: 1
+      value: "     "
+      update: false
+
+gui:
+  1:
+    slot: 1
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  2:
+    slot: 2
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  3:
+    slot: 3
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  4:
+    slot: 4
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  5:
+    slot: 5
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  6:
+    slot: 6
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  7:
+    slot: 7
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  8:
+    slot: 8
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  9:
+    slot: 9
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  10:
+    slot: 10
+    item: STAINED_GLASS_PANE
+    data: 3
+    name: "&8"
+  11:
+    slot: 11
+    item: STAINED_GLASS_PANE
+    data: 3
+    name: "&8"
+  12:
+    slot: 12
+    item: STAINED_GLASS_PANE
+    data: 3
+    name: "&8"
+  13:
+    slot: 13
+    item: GOLDEN_APPLE
+    data: 1
+    name: "&6EASYHC"
+    command: "polacz easyhc {PLAYER}"
+  14:
+    slot: 14
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  15:
+    slot: 15
+    item: NETHER_STAR
+    data: 0
+    name: "&6MEGADROP"
+    command: "polacz megadrop {PLAYER}"
+  16:
+    slot: 16
+    item: STAINED_GLASS_PANE
+    data: 3
+    name: "&8"
+  17:
+    slot: 17
+    item: STAINED_GLASS_PANE
+    data: 3
+    name: "&8"
+  18:
+    slot: 18
+    item: STAINED_GLASS_PANE
+    data: 3
+    name: "&8"
+  19:
+    slot: 19
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  20:
+    slot: 20
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  21:
+    slot: 21
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  22:
+    slot: 22
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  23:
+    slot: 23
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  24:
+    slot: 24
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  25:
+    slot: 25
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+  26:
+    slot: 26
+    item: STAINED_GLASS_PANE
+    data: 15
+    name: "&8"
+  27:
+    slot: 27
+    item: STAINED_GLASS_PANE
+    data: 7
+    name: "&8"
+
+cannot-build: "&8{>} &cW lobby budowanie jest zablokowane!"
+cannot-chat: "&8{>} &cW lobby chat jest zablokowany!"

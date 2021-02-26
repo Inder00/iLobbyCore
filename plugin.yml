@@ -1,0 +1,7 @@
+name: iLobbyCore
+version: ${project.version}
+main: pl.inder00.lobbycore.Core
+prefix: iLobbyCore
+authors: [Inder00]
+description: Plugin zarzadzajacy lobby
+website: https://inder00.pl/
